@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNOF — IA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">SNOF</div>
+    <button id="newChat" class="new-chat">＋ Novo chat</button>
+    <div class="side-bottom">
+      <span>🤖 SNOF IA</span>
+      <span class="status">● Online</span>
+    </div>
+  </aside>
+
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <h1>SNOF</h1>
+        <p>Converse com sua inteligência artificial</p>
+      </div>
+    </header>
+
+    <section id="messages" class="messages">
+      <div class="welcome">
+        <div class="welcome-icon">✦</div>
+        <h2>Olá! Eu sou a SNOF.</h2>
+        <p>Digite uma mensagem abaixo para começar.</p>
+      </div>
+    </section>
+
+    <form id="chatForm" class="composer">
+      <textarea id="prompt" rows="1" placeholder="Digite sua mensagem..." autocomplete="off"></textarea>
+      <button id="sendBtn" type="submit" aria-label="Enviar">➤</button>
+    </form>
+    <div class="notice">A SNOF pode cometer erros. Verifique informações importantes.</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

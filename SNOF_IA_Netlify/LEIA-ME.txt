@@ -1,0 +1,22 @@
+SNOF IA — NETLIFY
+
+1) Crie uma chave da Groq em:
+https://console.groq.com/
+
+2) No Netlify, abra o site:
+Site configuration > Environment variables > Add a variable
+
+Nome:
+GROQ_API_KEY
+
+Valor:
+cole sua chave da Groq
+
+3) Faça um novo deploy.
+
+4) Abra o endereço do seu site e teste o chat.
+
+IMPORTANTE:
+- NÃO coloque sua chave real dentro do index.html ou script.js.
+- O arquivo .env.example é apenas um exemplo.
+- Para publicar, envie esta pasta para o Netlify ou conecte um repositório Git.
